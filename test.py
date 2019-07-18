@@ -1,2 +1,2 @@
-
-print('hehe')
+print('well done')
+print('hahaha')
