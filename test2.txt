@@ -14,10 +14,15 @@ Four sheeps.
 
 Five sheeps.
 
-Six Seven 
+Six 
+Seven 
 Eight
 Nine
 Ten
 Eleven
 twelve 
+
+13
+14
+15
  
