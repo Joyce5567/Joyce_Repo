@@ -5,10 +5,10 @@ I will try to put some names in it.
 The Game of Thrones:
 Ned Stark
 Rob Stark
-<<<<<<< HEAD
 Brandon stark
-=======
-
 Sansa 
 Arya
->>>>>>> bf7569df8104186db821bd2fb5d99ce9d7e93de6
+
+House Lannister
+
+
