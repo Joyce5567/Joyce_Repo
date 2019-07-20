@@ -6,3 +6,5 @@ The Game of Thrones:
 Ned Stark
 Rob Stark
 
+Sansa 
+Arya
