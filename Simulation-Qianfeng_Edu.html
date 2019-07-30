@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.header{
+				/*border: 1px solid #232323;*/
+				background-color: #232323;		
+				height: 45px;
+				/*display: flex;
+				flex-direction: row;*/
+				
+			}
+			.header img{
+				height : 45px;
+				width: 100px;
+				margin-left: 200px;  /*设置左边距*/
+				float: left
+			}
+			
+			ul>li>a{
+				text-decoration: none;
+				color: white;
+				line-height: 62px;
+				/*内边距*/
+				padding-right: 10px;
+				/*padding-left: 10px;*/
+				/*边框*/
+				border-right: 1px solid grey
+				/*去掉下划线*/;
+
+			}
+			ul{
+				margin-left: 500px;
+				/*去掉点*/
+				list-style: none;
+				color: white;
+			}
+			ul>li{
+				float: left;
+				color: white;
+			}
+			.banner{
+				height: 300px;
+				background-image: url(img/pikaqu4.jpg);
+				background-repeat: repeat-x;
+			}
+			body{
+				width: 1258px;
+				height: 1080px;
+				margin: 0 auto;
+			}
+			.select{
+				background-color: #F5F5F5;
+				height: 350px;
+				display: flex;
+				flex-direction: row;
+				padding-left: calc((100%-1080px)/2);
+				
+			}
+			.select>.select_buttom{
+				/*float: left;*/
+				background-color: gainsboro;
+				height: 300px;
+				width: 270px;
+				margin-top: 25px;
+				border: 1px solid floralwhite;
+			}
+			.select>.select_buttom>img{
+				width: 80px;
+				height: 80px;
+				margin-left: 95px;
+				margin-top: 50px;
+			}
+			.select>.select_buttom>h2{
+				font-size: 20px;
+				color:darkslategray;
+				text-align: center;
+			}
+			.select>.select_buttom>p{
+				font-size: 15px;
+				color:gray;
+				text-align: center;
+			}
+			.select{
+				padding-left: calc((100% - 1080px)/2);
+			}
+			.news{
+				/*用来设置内部元素横向排序*/
+				display: flex;
+				flex-direction: row;
+				height: 300px;
+				width: 100%;
+			}
+			.news>div{
+				height: 250px;
+				margin-top: 25px;
+			}
+			.news>.first{
+				background-color: white;
+				/*计算距离左边的边距， 保证整体居中*/
+				/*margin-left: calc((100%-10px)/2);*/
+				margin-left: 100px;
+				/*margin-right: 100px;*/
+				width: 70%;
+				display: flex;
+				flex-direction: row;
+			}
+			.news>.first>div>img{
+				margin-left:50px;
+				width: 275px;
+			}
+			 .news>.first>div>h2{
+				/*margin-left: 100px;*/
+				font-size: 20px;
+				color:darkslategray;
+				text-align: left;
+				}
+			.news>.first>div>p:before{
+				/*margin-left: 100px;*/
+				content: "> " ;
+				font-size: 10px;
+				color:darkslategray;
+				text-align: left;
+			}
+			.news>.last{
+				background-color: white;
+				margin-left: 5px;
+				/*margin-right: 50px;*/
+				width: 30%;
+				padding-left: 10px;
+			}
+			.news>.last>h2{
+				font-size: 20px;
+				color:darkslategray;
+				text-align: left;
+			}
+			.news>.last>p{
+				font-size: 10px;
+				color:darkslategray;
+				text-align: left;
+			}
+			.news>.line{
+				height: 200px;
+				margin-top: 50px;
+				width: 2px;
+				background-color: black;
+				margin-left: 10px;
+			}
+			.first>div{
+				height: 100%;
+				width: 50%;
+			}
+			.first>div>img{
+				width: 96%;
+				height: 100%;
+				border: 1px solid darkgrey;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<!--<div class="clearfix">-->
+			<div class="header">
+				<img src="img/pikaqu1.jpg" alt="" />
+			<!--<div id="one">-->
+				<ul>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">课程</a>
+					</li>
+					<li>
+						<a href="#">走进千峰</a>
+					</li>
+					<li>
+						<a href="#">双选会</a>
+					</li>
+					
+					<li>
+						<a href="#">千锋教育</a>
+					</li>
+					<li>
+						<a href="#">好程序员</a>
+					</li>
+					
+					<li>
+						<a href="#">扣丁学堂</a>
+					</li>
+					<li>
+						<a href="#">APP外包</a>
+					</li>
+					<li>
+						<a href="#">培训服务</a>
+					</li>
+					<li>
+						<a style="border: none" href="#">企业孵化</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="banner">	 </div>
+			
+			<div class="select">
+				<div class="select_buttom">
+					<img src="img/kefu.png"/>
+					<h2>移动产业</h2>
+					<p>国内互联网开发人才提供平台</p>
+				</div>
+				<div class="select_buttom">
+					<img src="img/remen.png"/>
+					<h2>千锋教育</h2>
+					<p>it职业教育良心品牌</p>
+				</div>
+				<div class="select_buttom">
+					<img src="img/sousuo.png"/>
+					<h2>项目研发</h2>
+					<p>知名互联网项目解决方案提供商</p>
+				</div>
+				<div class="select_buttom">
+					<img src="img/youxiang.png"/>
+					<h2>创业孵化</h2>
+					<p>卓越的互联网基地</p>
+				</div>
+			</div>
+			
+			<div class="news">
+
+			<div class="first">
+				<div>
+					<img src="img/pikaqu5.jpg"/>
+				</div>
+				<div id="">
+					<h2>动态新闻</h2>
+					<p>千锋第41季IT互联网高端人才招聘会开启</p>
+					<hr />
+					<p>一大波暑期新生来袭</p>
+					<p>千锋助扣丁学堂布局在线教育</p>
+					<p>编程书籍免费包邮到你家</p>
+				</div>
+			</div>
+			
+			<div class="line"></div>	
+			<div class="last">
+				<h2>与我们洽谈</h2>
+				<h2>400-811-9990</h2>
+				<p>企业招聘咨询： 13333333333 张老师</p>
+				<p>院校深度合作： 13333333333 张老师</p>
+				<p>品牌合作对接： 13333333333 张老师</p>
+				<p>企业合作洽谈： 13333333333 张老师</p>
+			</div>
+		</div>
+		<!--</div>-->
+	</body>
+</html>
+
+<!--用到：
+	浮动
+	margin 外边距
+	padding 内边距
+	display：flex; flex-direction:row/column 用来控制子元素的排列方式
+	calc 计算帮我们去算距离或大小
+	
+-->
