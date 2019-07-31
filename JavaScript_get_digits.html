@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script type="text/javascript">
+		// print rhombus(made by "*")
+
+	 	var col = 1,  n = 9;
+	 	while (col <= n / 2){
+		 	var a = 1;
+		 	var b = n/2;
+		 	while (b > col){
+		 		document.write("$");
+		 		b--;
+		 	}  	
+		 	
+		 	while (a <= (col*2 - 1)){
+		 		document.write("*");
+		 		a++;
+		 	} 	
+		 	document.write("<br />");
+		 	col++;
+		 }
+
+	 	while (col >= (n/2) && (col <= n)){
+	 		var a = 1;
+	 		var b = n;
+	 		while (a<(col-(n / 2))){
+	 			document.write("$");
+	 			a++;
+	 		}
+	 		
+		 	while (b > ((col-(n / 2)))*2-1){
+		 		document.write("*");
+		 		b--;
+		 	}  	
+	 		document.write("<br />");
+	 		col++;
+	 	}
+	
+	</script>
+</html>
