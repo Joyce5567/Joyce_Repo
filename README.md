@@ -1,4 +1,4 @@
 # Joyce_Repo
 
-This repository stores my exercise of using Python and JavaScript.
+This repository stores my exercises of Python and JavaScript.
 
