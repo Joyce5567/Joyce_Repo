@@ -1,5 +1,4 @@
 # Joyce_Repo
-A test repo
-Hellooooooooo
-modified 2nd 
+
+This repository stores my exercise of using Python and JavaScript.
 
