@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	
+	<script type="text/javascript">
+		// 判断一个数是奇数还是偶数；
+		var num = 6;
+		if (num % 2 ==0){
+			console.log("是偶数");
+		} else {
+			console.log("是奇数");
+		}
+		
+		// 求两个数的最大数
+		var num1 = 8;
+		if (num > num1){
+			console.log(num);
+		} else if(num = num1){
+			console.log("两数相等");
+		} else {
+			console.log(num1);
+		}
+		
+		//计算y的值并输出
+		var x = 11;
+		if (x<1){
+			console.log(x);
+		} else if(10>x>=1){
+			console.log(2 * x + 1);
+		} else {
+			console.log(5 * x - 17);
+		}
+		
+		// 判断一个整数属于哪个范围： 
+		// 大于0； 小于0； 等于0
+		if (x<0){
+			console.log("小于0");
+		} else if(x==0){
+			console.log("等于0");
+		} else if(x>0){
+			console.log("大于0");
+		} else {
+			console.log("请输入一个合法整数")
+		}
+		
+		//已知圆的半径r， 求出圆的面积s
+		var r = 15;
+		console.log(r * r * Math.PI)
+	
+		
+		// 打印菱形(由*组成)
+
+	 	var col = 1,  n = 9;
+	 	while (col <= n / 2){
+		 	var a = 1;
+		 	var b = n/2;
+		 	while (b > col){
+		 		document.write("$");
+		 		b--;
+		 	}  	
+		 	
+		 	while (a <= (col*2 - 1)){
+		 		document.write("*");
+		 		a++;
+		 	} 	
+		 	document.write("<br />");
+		 	col++;
+		 }
+
+	 	while (col >= (n/2) && (col <= n)){
+	 		var a = 1;
+	 		var b = n;
+	 		while (a<(col-(n / 2))){
+	 			document.write("$");
+	 			a++;
+	 		}
+	 		
+		 	while (b > ((col-(n / 2)))*2-1){
+		 		document.write("*");
+		 		b--;
+		 	}  	
+	 		document.write("<br />");
+	 		col++;
+	 	}
+	
+		// 根据小时计算天数
+		var hours = 89;
+		date = hours / 24;
+		console.log(date);
+		
+		// 入职月薪10k， 每年涨5%， 计算50年后月薪
+		var salary = 10000;
+		salary_later = 10000 * Math.pow((1 + 0.05), 50);
+		console.log(salary_later);
+		
+		// 取一个三位数的百十个位
+		var number = 123;
+		console.log(Math.floor(number / 100));
+		console.log(Math.floor(number % 100 / 10));
+		console.log(number % 100 % 10);
+		
+	</script>
+</html>
